@@ -27,10 +27,6 @@ class TextProcessor:
             clean_text += i
         return clean_text
 
-# a = TextProcessor()
-# print(a.get_clean_string('метод set_clean_text, який'))
-
-
 class TextLoader:
     def __init__(self):
         self.__text_processor = TextProcessor()
